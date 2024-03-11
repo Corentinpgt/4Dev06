@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500;9..40,700&display=swap");
+  :root {
+    /* Primitives Tokens  */
+    --clr-white: 0 0% 100%;
+    --clr-dark-grey: 0 0% 10%;
+    /* Sementics Tokens */
+    --foreground: var(--clr-dark-grey);
+    --background: var(--clr-white);
+
+    --radius: 0.5rem;
+    --gap: 1rem;
+  }
+
+  body {
+    font-family: "DM Sans", sans-serif;
+  }
+}
